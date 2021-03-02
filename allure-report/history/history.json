@@ -1,0 +1,138 @@
+{
+  "5c4720933d4c1c354421a731700bb840" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4136732d1718670",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: //div[contains(text(),'Action successful')]",
+      "time" : {
+        "start" : 1614491499407,
+        "stop" : 1614491521555,
+        "duration" : 22148
+      }
+    } ]
+  },
+  "f4df634805773273c2f1894f1075d3b2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2f25590b09a637d7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614491441879,
+        "stop" : 1614491467963,
+        "duration" : 26084
+      }
+    } ]
+  },
+  "a5492477a743bef3bf878ec09e3c5376" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ed85766353a3d51b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614491473448,
+        "stop" : 1614491499403,
+        "duration" : 25955
+      }
+    } ]
+  },
+  "251b1e3bf88d8420a02dcd045d484486" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "55db2f525a3dfc1e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614491467969,
+        "stop" : 1614491473442,
+        "duration" : 5473
+      }
+    } ]
+  },
+  "fb5d2896efa36f59ab3a99714f78c140" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4ab545906d5b9afd",
+      "status" : "broken",
+      "statusDetails" : "requests.exceptions.MissingSchema: Invalid URL '<selenium.webdriver.firefox.webelement.FirefoxWebElement (session=\"0279cf79-f0fd-40f5-8005-9e2a17841c15\", element=\"b50cf28a-7252-475c-a8c0-dc8098feb561\")>': No schema supplied. Perhaps you meant http://<selenium.webdriver.firefox.webelement.FirefoxWebElement (session=\"0279cf79-f0fd-40f5-8005-9e2a17841c15\", element=\"b50cf28a-7252-475c-a8c0-dc8098feb561\")>?",
+      "time" : {
+        "start" : 1614434486628,
+        "stop" : 1614434492390,
+        "duration" : 5762
+      }
+    } ]
+  },
+  "eafe47cc0e5a0d78bdb9e3c6c61e4edf" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "dd6369a9ffd256de",
+      "status" : "broken",
+      "statusDetails" : "requests.exceptions.MissingSchema: Invalid URL '<selenium.webdriver.firefox.webelement.FirefoxWebElement (session=\"6a836011-6e99-4778-bc5c-0c7d27a80dee\", element=\"f3b7f54d-9979-41fe-be2a-b17688d5c2cd\")>': No schema supplied. Perhaps you meant http://<selenium.webdriver.firefox.webelement.FirefoxWebElement (session=\"6a836011-6e99-4778-bc5c-0c7d27a80dee\", element=\"f3b7f54d-9979-41fe-be2a-b17688d5c2cd\")>?",
+      "time" : {
+        "start" : 1614491422454,
+        "stop" : 1614491425703,
+        "duration" : 3249
+      }
+    } ]
+  },
+  "61c9fa13ca6e9a1cfecb7a85824c4931" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f5d9a3a451d96f68",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614491428390,
+        "stop" : 1614491441854,
+        "duration" : 13464
+      }
+    } ]
+  }
+}

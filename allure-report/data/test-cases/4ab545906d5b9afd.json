@@ -1,0 +1,112 @@
+{
+  "uid" : "4ab545906d5b9afd",
+  "name" : "test1[firefox]",
+  "fullName" : "test_base.Testdemo#test1",
+  "historyId" : "fb5d2896efa36f59ab3a99714f78c140",
+  "time" : {
+    "start" : 1614434486628,
+    "stop" : 1614434492390,
+    "duration" : 5762
+  },
+  "status" : "broken",
+  "statusMessage" : "requests.exceptions.MissingSchema: Invalid URL '<selenium.webdriver.firefox.webelement.FirefoxWebElement (session=\"0279cf79-f0fd-40f5-8005-9e2a17841c15\", element=\"b50cf28a-7252-475c-a8c0-dc8098feb561\")>': No schema supplied. Perhaps you meant http://<selenium.webdriver.firefox.webelement.FirefoxWebElement (session=\"0279cf79-f0fd-40f5-8005-9e2a17841c15\", element=\"b50cf28a-7252-475c-a8c0-dc8098feb561\")>?",
+  "statusTrace" : "self = <febdemo.test_base.Testdemo object at 0x00000000047ECF40>\n\n    def test1(self):\n        self.driver.get(\"http://the-internet.herokuapp.com/broken_images\")\n        links = self.driver.find_elements_by_tag_name(\"a\")\n        for link in links:\n>           r = requests.head(link)\n\ntest_base.py:19: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n..\\..\\..\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\requests\\api.py:104: in head\n    return request('head', url, **kwargs)\n..\\..\\..\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\requests\\api.py:61: in request\n    return session.request(method=method, url=url, **kwargs)\n..\\..\\..\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\requests\\sessions.py:528: in request\n    prep = self.prepare_request(req)\n..\\..\\..\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\requests\\sessions.py:456: in prepare_request\n    p.prepare(\n..\\..\\..\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\requests\\models.py:316: in prepare\n    self.prepare_url(url, params)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <PreparedRequest [HEAD]>\nurl = '<selenium.webdriver.firefox.webelement.FirefoxWebElement (session=\"0279cf79-f0fd-40f5-8005-9e2a17841c15\", element=\"b50cf28a-7252-475c-a8c0-dc8098feb561\")>'\nparams = OrderedDict()\n\n    def prepare_url(self, url, params):\n        \"\"\"Prepares the given HTTP URL.\"\"\"\n        #: Accept objects that have string representations.\n        #: We're unable to blindly call unicode/str functions\n        #: as this will include the bytestring indicator (b'')\n        #: on python 3.x.\n        #: https://github.com/psf/requests/pull/2238\n        if isinstance(url, bytes):\n            url = url.decode('utf8')\n        else:\n            url = unicode(url) if is_py2 else str(url)\n    \n        # Remove leading whitespaces from url\n        url = url.lstrip()\n    \n        # Don't do any URL preparation for non-HTTP schemes like `mailto`,\n        # `data` etc to work around exceptions from `url_parse`, which\n        # handles RFC 3986 only.\n        if ':' in url and not url.lower().startswith('http'):\n            self.url = url\n            return\n    \n        # Support for unicode domain names and paths.\n        try:\n            scheme, auth, host, port, path, query, fragment = parse_url(url)\n        except LocationParseError as e:\n            raise InvalidURL(*e.args)\n    \n        if not scheme:\n            error = (\"Invalid URL {0!r}: No schema supplied. Perhaps you meant http://{0}?\")\n            error = error.format(to_native_string(url, 'utf8'))\n    \n>           raise MissingSchema(error)\nE           requests.exceptions.MissingSchema: Invalid URL '<selenium.webdriver.firefox.webelement.FirefoxWebElement (session=\"0279cf79-f0fd-40f5-8005-9e2a17841c15\", element=\"b50cf28a-7252-475c-a8c0-dc8098feb561\")>': No schema supplied. Perhaps you meant http://<selenium.webdriver.firefox.webelement.FirefoxWebElement (session=\"0279cf79-f0fd-40f5-8005-9e2a17841c15\", element=\"b50cf28a-7252-475c-a8c0-dc8098feb561\")>?\n\n..\\..\\..\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\requests\\models.py:390: MissingSchema",
+  "flaky" : true,
+  "beforeStages" : [ {
+    "name" : "init__driver",
+    "time" : {
+      "start" : 1614434459672,
+      "stop" : 1614434486485,
+      "duration" : 26813
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "init__driver::0",
+    "time" : {
+      "start" : 1614434597280,
+      "stop" : 1614434600263,
+      "duration" : 2983
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('init__driver')"
+  }, {
+    "name" : "suite",
+    "value" : "test_base"
+  }, {
+    "name" : "subSuite",
+    "value" : "Testdemo"
+  }, {
+    "name" : "host",
+    "value" : "LR9WL4N-THINK"
+  }, {
+    "name" : "thread",
+    "value" : "10936-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_base"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "init__driver",
+    "value" : "'firefox'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "1a59880f24f69eb7",
+      "status" : "broken",
+      "statusDetails" : "requests.exceptions.MissingSchema: Invalid URL '<selenium.webdriver.firefox.webelement.FirefoxWebElement (session=\"0bbcd2da-1530-4974-a7a0-8bc1423a9d90\", element=\"ed7b1802-1bce-4e3e-b5a9-35a276f47a4b\")>': No schema supplied. Perhaps you meant http://<selenium.webdriver.firefox.webelement.FirefoxWebElement (session=\"0bbcd2da-1530-4974-a7a0-8bc1423a9d90\", element=\"ed7b1802-1bce-4e3e-b5a9-35a276f47a4b\")>?",
+      "time" : {
+        "start" : 1614430587504,
+        "stop" : 1614430601467,
+        "duration" : 13963
+      }
+    }, {
+      "uid" : "f42bd9057b203455",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message: No connection could be made because the target machine actively refused it. (os error 10061)",
+      "time" : {
+        "start" : 1614430398482,
+        "stop" : 1614430398482,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "@pytest.mark.usefixtures('init__driver')" ]
+  },
+  "source" : "4ab545906d5b9afd.json",
+  "parameterValues" : [ "'firefox'" ]
+}

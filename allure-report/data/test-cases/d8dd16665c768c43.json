@@ -1,0 +1,102 @@
+{
+  "uid" : "d8dd16665c768c43",
+  "name" : "test2_forgot_passwd[firefox]",
+  "fullName" : "test_base.Testdemo#test2_forgot_passwd",
+  "historyId" : "61c9fa13ca6e9a1cfecb7a85824c4931",
+  "time" : {
+    "start" : 1614430612068,
+    "stop" : 1614430640422,
+    "duration" : 28354
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "init__driver",
+    "time" : {
+      "start" : 1614430531672,
+      "stop" : 1614430587314,
+      "duration" : 55642
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "173599a78e048335",
+      "name" : "stdout",
+      "source" : "173599a78e048335.txt",
+      "type" : "text/plain",
+      "size" : 56
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "init__driver::0",
+    "time" : {
+      "start" : 1614430740271,
+      "stop" : 1614430750237,
+      "duration" : 9966
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('init__driver')"
+  }, {
+    "name" : "suite",
+    "value" : "test_base"
+  }, {
+    "name" : "subSuite",
+    "value" : "Testdemo"
+  }, {
+    "name" : "host",
+    "value" : "LR9WL4N-THINK"
+  }, {
+    "name" : "thread",
+    "value" : "9976-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_base"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "init__driver",
+    "value" : "'firefox'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('init__driver')" ]
+  },
+  "source" : "d8dd16665c768c43.json",
+  "parameterValues" : [ "'firefox'" ]
+}

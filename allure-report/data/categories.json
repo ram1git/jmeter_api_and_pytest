@@ -1,0 +1,57 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "requests.exceptions.MissingSchema: Invalid URL '<selenium.webdriver.firefox.webelement.FirefoxWebElement (session=\"0279cf79-f0fd-40f5-8005-9e2a17841c15\", element=\"b50cf28a-7252-475c-a8c0-dc8098feb561\")>': No schema supplied. Perhaps you meant http://<selenium.webdriver.firefox.webelement.FirefoxWebElement (session=\"0279cf79-f0fd-40f5-8005-9e2a17841c15\", element=\"b50cf28a-7252-475c-a8c0-dc8098feb561\")>?",
+      "children" : [ {
+        "name" : "test1[firefox]",
+        "uid" : "4ab545906d5b9afd",
+        "parentUid" : "7b973dc290b77d03e88e442a1a0baebe",
+        "status" : "broken",
+        "time" : {
+          "start" : 1614434486628,
+          "stop" : 1614434492390,
+          "duration" : 5762
+        },
+        "flaky" : true,
+        "parameters" : [ "'firefox'" ]
+      } ],
+      "uid" : "7b973dc290b77d03e88e442a1a0baebe"
+    }, {
+      "name" : "requests.exceptions.MissingSchema: Invalid URL '<selenium.webdriver.firefox.webelement.FirefoxWebElement (session=\"6a836011-6e99-4778-bc5c-0c7d27a80dee\", element=\"f3b7f54d-9979-41fe-be2a-b17688d5c2cd\")>': No schema supplied. Perhaps you meant http://<selenium.webdriver.firefox.webelement.FirefoxWebElement (session=\"6a836011-6e99-4778-bc5c-0c7d27a80dee\", element=\"f3b7f54d-9979-41fe-be2a-b17688d5c2cd\")>?",
+      "children" : [ {
+        "name" : "test1_broken_links[firefox]",
+        "uid" : "dd6369a9ffd256de",
+        "parentUid" : "af8a785fa099b6c1f4271ef475077980",
+        "status" : "broken",
+        "time" : {
+          "start" : 1614491422454,
+          "stop" : 1614491425703,
+          "duration" : 3249
+        },
+        "flaky" : false,
+        "parameters" : [ "'firefox'" ]
+      } ],
+      "uid" : "af8a785fa099b6c1f4271ef475077980"
+    }, {
+      "name" : "selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: //div[contains(text(),'Action successful')]",
+      "children" : [ {
+        "name" : "test6_notif_msg_rend[firefox]",
+        "uid" : "4136732d1718670",
+        "parentUid" : "436b183565103f0ef3f9a54152c44c4e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1614491499407,
+          "stop" : 1614491521555,
+          "duration" : 22148
+        },
+        "flaky" : true,
+        "parameters" : [ "'firefox'" ]
+      } ],
+      "uid" : "436b183565103f0ef3f9a54152c44c4e"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

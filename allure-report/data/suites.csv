@@ -1,0 +1,8 @@
+"Status","Name","Duration in ms","Description"
+"passed","test_base.Testdemo#test4_alphaform_valid","5473",""
+"passed","test_base.Testdemo#test5_sorttables_valid","25955",""
+"broken","test_base.Testdemo#test1_broken_links","3249",""
+"broken","test_base.Testdemo#test1","5762",""
+"passed","test_base.Testdemo#test2_forgot_passwd","13464",""
+"broken","test_base.Testdemo#test6_notif_msg_rend","22148",""
+"passed","test_base.Testdemo#test3_form_valid","26084",""

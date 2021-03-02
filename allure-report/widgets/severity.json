@@ -1,0 +1,71 @@
+[ {
+  "uid" : "f5d9a3a451d96f68",
+  "name" : "test2_forgot_passwd[firefox]",
+  "time" : {
+    "start" : 1614491428390,
+    "stop" : 1614491441854,
+    "duration" : 13464
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4136732d1718670",
+  "name" : "test6_notif_msg_rend[firefox]",
+  "time" : {
+    "start" : 1614491499407,
+    "stop" : 1614491521555,
+    "duration" : 22148
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "55db2f525a3dfc1e",
+  "name" : "test4_alphaform_valid[firefox]",
+  "time" : {
+    "start" : 1614491467969,
+    "stop" : 1614491473442,
+    "duration" : 5473
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2f25590b09a637d7",
+  "name" : "test3_form_valid[firefox]",
+  "time" : {
+    "start" : 1614491441879,
+    "stop" : 1614491467963,
+    "duration" : 26084
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dd6369a9ffd256de",
+  "name" : "test1_broken_links[firefox]",
+  "time" : {
+    "start" : 1614491422454,
+    "stop" : 1614491425703,
+    "duration" : 3249
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "ed85766353a3d51b",
+  "name" : "test5_sorttables_valid[firefox]",
+  "time" : {
+    "start" : 1614491473448,
+    "stop" : 1614491499403,
+    "duration" : 25955
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4ab545906d5b9afd",
+  "name" : "test1[firefox]",
+  "time" : {
+    "start" : 1614434486628,
+    "stop" : 1614434492390,
+    "duration" : 5762
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

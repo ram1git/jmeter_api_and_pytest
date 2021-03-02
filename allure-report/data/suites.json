@@ -1,0 +1,97 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "test_base",
+    "children" : [ {
+      "name" : "Testdemo",
+      "children" : [ {
+        "name" : "test1[firefox]",
+        "uid" : "4ab545906d5b9afd",
+        "parentUid" : "0bee1d6c270aa1f38d7d0978fecd5d1a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1614434486628,
+          "stop" : 1614434492390,
+          "duration" : 5762
+        },
+        "flaky" : true,
+        "parameters" : [ "'firefox'" ]
+      }, {
+        "name" : "test1_broken_links[firefox]",
+        "uid" : "dd6369a9ffd256de",
+        "parentUid" : "0bee1d6c270aa1f38d7d0978fecd5d1a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1614491422454,
+          "stop" : 1614491425703,
+          "duration" : 3249
+        },
+        "flaky" : false,
+        "parameters" : [ "'firefox'" ]
+      }, {
+        "name" : "test2_forgot_passwd[firefox]",
+        "uid" : "f5d9a3a451d96f68",
+        "parentUid" : "0bee1d6c270aa1f38d7d0978fecd5d1a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614491428390,
+          "stop" : 1614491441854,
+          "duration" : 13464
+        },
+        "flaky" : true,
+        "parameters" : [ "'firefox'" ]
+      }, {
+        "name" : "test3_form_valid[firefox]",
+        "uid" : "2f25590b09a637d7",
+        "parentUid" : "0bee1d6c270aa1f38d7d0978fecd5d1a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614491441879,
+          "stop" : 1614491467963,
+          "duration" : 26084
+        },
+        "flaky" : true,
+        "parameters" : [ "'firefox'" ]
+      }, {
+        "name" : "test4_alphaform_valid[firefox]",
+        "uid" : "55db2f525a3dfc1e",
+        "parentUid" : "0bee1d6c270aa1f38d7d0978fecd5d1a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614491467969,
+          "stop" : 1614491473442,
+          "duration" : 5473
+        },
+        "flaky" : true,
+        "parameters" : [ "'firefox'" ]
+      }, {
+        "name" : "test5_sorttables_valid[firefox]",
+        "uid" : "ed85766353a3d51b",
+        "parentUid" : "0bee1d6c270aa1f38d7d0978fecd5d1a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614491473448,
+          "stop" : 1614491499403,
+          "duration" : 25955
+        },
+        "flaky" : true,
+        "parameters" : [ "'firefox'" ]
+      }, {
+        "name" : "test6_notif_msg_rend[firefox]",
+        "uid" : "4136732d1718670",
+        "parentUid" : "0bee1d6c270aa1f38d7d0978fecd5d1a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1614491499407,
+          "stop" : 1614491521555,
+          "duration" : 22148
+        },
+        "flaky" : true,
+        "parameters" : [ "'firefox'" ]
+      } ],
+      "uid" : "0bee1d6c270aa1f38d7d0978fecd5d1a"
+    } ],
+    "uid" : "bbab1c2ed67d48ecf232877429d1f0bf"
+  } ]
+}

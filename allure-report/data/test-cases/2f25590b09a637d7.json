@@ -1,0 +1,129 @@
+{
+  "uid" : "2f25590b09a637d7",
+  "name" : "test3_form_valid[firefox]",
+  "fullName" : "test_base.Testdemo#test3_form_valid",
+  "historyId" : "f4df634805773273c2f1894f1075d3b2",
+  "time" : {
+    "start" : 1614491441879,
+    "stop" : 1614491467963,
+    "duration" : 26084
+  },
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ {
+    "name" : "init__driver",
+    "time" : {
+      "start" : 1614491414338,
+      "stop" : 1614491422421,
+      "duration" : 8083
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "97b7019b059bc069",
+      "name" : "stdout",
+      "source" : "97b7019b059bc069.txt",
+      "type" : "text/plain",
+      "size" : 51
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "init__driver::0",
+    "time" : {
+      "start" : 1614491521602,
+      "stop" : 1614491523028,
+      "duration" : 1426
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('init__driver')"
+  }, {
+    "name" : "suite",
+    "value" : "test_base"
+  }, {
+    "name" : "subSuite",
+    "value" : "Testdemo"
+  }, {
+    "name" : "host",
+    "value" : "LR9WL4N-THINK"
+  }, {
+    "name" : "thread",
+    "value" : "296-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_base"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "init__driver",
+    "value" : "'firefox'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "641138f2857e6b9d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614434511529,
+        "stop" : 1614434537962,
+        "duration" : 26433
+      }
+    }, {
+      "uid" : "1408349866b977cb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614430640427,
+        "stop" : 1614430670559,
+        "duration" : 30132
+      }
+    }, {
+      "uid" : "e2c4318255243794",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message: No connection could be made because the target machine actively refused it. (os error 10061)",
+      "time" : {
+        "start" : 1614430475479,
+        "stop" : 1614430475479,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('init__driver')" ]
+  },
+  "source" : "2f25590b09a637d7.json",
+  "parameterValues" : [ "'firefox'" ]
+}
