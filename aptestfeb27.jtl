@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="1650" lt="1506" ts="1614504617643" s="true" lb="https://reqres.in/------thread-num-is--1-------1614504619325-------20210228-150019" rc="200" rm="OK" tn="test suite reqres------thread-num-is--StandardJMeterEngine-------1614504617563-------20210228-150017 1-1" dt="text" by="27079" ng="1" na="1"/>
+<httpSample t="23" lt="22" ts="1614504619347" s="true" lb="https://reqres.in/api/users/------thread-num-is--1-------1614504619369-------20210228-150019" rc="200" rm="OK" tn="test suite reqres------thread-num-is--StandardJMeterEngine-------1614504617563-------20210228-150017 1-1" dt="text" by="1803" ng="1" na="1"/>
+<httpSample t="330" lt="312" ts="1614504619371" s="true" lb="https://reqres.in/api/register------thread-num-is--1-------1614504619682-------20210228-150019" rc="200" rm="OK" tn="test suite reqres------thread-num-is--StandardJMeterEngine-------1614504617563-------20210228-150017 1-1" dt="text" by="2729" ng="1" na="1">
+  <sample t="1" lt="0" ts="1614504619700" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="test suite reqres------thread-num-is--StandardJMeterEngine-------1614504617563-------20210228-150017 1-1" dt="text" by="1940" ng="0" na="0"/>
+</httpSample>
+<httpSample t="312" lt="312" ts="1614504619702" s="true" lb="https://reqres.in/api/login------thread-num-is--1-------1614504620013-------20210228-150020" rc="200" rm="OK" tn="test suite reqres------thread-num-is--StandardJMeterEngine-------1614504617563-------20210228-150017 1-1" dt="text" by="784" ng="1" na="1">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="171" lt="0" ts="1614504620020" s="true" lb="https://reqres.in/api/delete------thread-num-is--1-------1614504620191-------20210228-150020" rc="204" rm="No Content" tn="test suite reqres------thread-num-is--StandardJMeterEngine-------1614504617563-------20210228-150017 1-1" dt="" by="712" ng="1" na="1">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="306" lt="306" ts="1614504620193" s="true" lb="https://reqres.in/api/login------thread-num-is--1-------1614504620498-------20210228-150020" rc="200" rm="OK" tn="test suite reqres------thread-num-is--StandardJMeterEngine-------1614504617563-------20210228-150017 1-1" dt="text" by="782" ng="1" na="1">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="12" lt="12" ts="1614504620503" s="true" lb="https://reqres.in/api/unknown------thread-num-is--1-------1614504620515-------20210228-150020" rc="200" rm="OK" tn="test suite reqres------thread-num-is--StandardJMeterEngine-------1614504617563-------20210228-150017 1-1" dt="text" by="1518" ng="1" na="1"/>
+<httpSample t="12" lt="9" ts="1614504620519" s="true" lb="https://reqres.in/api/users------thread-num-is--1-------1614504620528-------20210228-150020" rc="200" rm="OK" tn="test suite reqres------thread-num-is--StandardJMeterEngine-------1614504617563-------20210228-150017 1-1" dt="text" by="3885" ng="1" na="1">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <sample t="1" lt="0" ts="1614504620530" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="test suite reqres------thread-num-is--StandardJMeterEngine-------1614504617563-------20210228-150017 1-1" dt="text" by="2047" ng="0" na="0"/>
+</httpSample>
+<httpSample t="17" lt="15" ts="1614504620533" s="true" lb="https://reqres.in/api/users/2------thread-num-is--1-------1614504620547-------20210228-150020" rc="200" rm="OK" tn="test suite reqres------thread-num-is--StandardJMeterEngine-------1614504617563-------20210228-150017 1-1" dt="text" by="3220" ng="1" na="1">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <sample t="1" lt="0" ts="1614504620549" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="test suite reqres------thread-num-is--StandardJMeterEngine-------1614504617563-------20210228-150017 1-1" dt="text" by="2127" ng="0" na="0"/>
+</httpSample>
+<httpSample t="15" lt="14" ts="1614504620552" s="true" lb="https://reqres.in/api/unknown/2------thread-num-is--1-------1614504620565-------20210228-150020" rc="200" rm="OK" tn="test suite reqres------thread-num-is--StandardJMeterEngine-------1614504617563-------20210228-150017 1-1" dt="text" by="3275" ng="1" na="1">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <sample t="0" lt="0" ts="1614504620567" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="test suite reqres------thread-num-is--StandardJMeterEngine-------1614504617563-------20210228-150017 1-1" dt="text" by="2235" ng="0" na="0"/>
+</httpSample>
+<sample t="2848" lt="2508" ts="1614504617604" s="true" lb="all_test_cases------thread-num-is-- 1-------1614504617604-------20210228-150017" rc="200" rm="Number of samples in transaction : 10, number of failing samples : 0" tn="test suite reqres------thread-num-is--StandardJMeterEngine-------1614504617563-------20210228-150017 1-1" dt="" by="45787" ng="1" na="1"/>
+
+</testResults>
